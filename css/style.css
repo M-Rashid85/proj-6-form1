@@ -1,0 +1,137 @@
+header{
+background-color: #353a40e8;;
+padding: 5px 0px;
+width: 100%;
+position: fixed;
+}
+.container{
+width: 1200px;
+margin: auto;
+}
+nav{
+
+}
+nav ul{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+nav ul li {
+display: inline-block;
+padding: 10px 15px;
+}
+nav ul li a{
+  color: #fff;
+      text-transform: uppercase;
+      font-size: 14px;
+      display: block;
+      transition: all  0.4s ease;
+      box-shadow: 0px 6px 10px #053506;
+}
+nav ul li a img{
+  width: 150px;
+}
+nav ul li a:hover{
+color: #08975D
+}
+section{
+  background: #353A40 url(../images/bgimagae.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* height: 100vh; */
+  /* background-blend-mode:soft-light; */
+}
+.flex{
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.content{
+  max-width: 50%;
+  color: white;
+  padding: 15px;
+  flex: 0 0 50%;
+}
+.form{
+  max-width: 50%;
+  color: white;
+  padding: 15px;
+  flex: 0 0 50%;
+}
+.content h1{
+color: #fff;
+font-size: 1.9em;
+text-transform: uppercase;
+}
+span{
+  color: #08975d9c;
+}
+.content p{
+color: #fff;
+font-size: 20px;
+}
+.content ul{
+  margin:10px 0;
+  color: #fff;
+  text-transform: capitalize;
+}
+.content ul li{}
+.content a{
+  box-shadow: 0px 6px 10px #053506;
+  background: #08975d9c;;
+  color: white;
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 25px;
+ }
+
+.form-content {
+  border-radius: 13px;
+  text-align: center;
+  background-color: #08975d9c;
+  max-width: 400px;
+  padding: 30px 20px;
+  margin-left: auto;;
+}
+.form-content h2{
+  color: #fff;
+  font-size: 30px;
+  text-transform: capitalize;
+}
+.form-contetnt{
+  font-size: 20px;
+  color: #fff;
+}
+.form-content form{
+  margin-top: 20px;
+}
+.form-content form input{
+  font-size: 17px;
+  width: 100%;
+  padding: 10px 15px ;
+  border:0;
+  margin-bottom: 8px;
+
+}
+.form-content form .submit{
+  box-shadow: 0px 6px 10px #053506;
+  width: 200px;
+  margin-top: 8px;
+  background: #08613d ;
+  color:#fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 25px;
+}
+.form-content form .submit:hover{
+  background-color: #a8c1b7;
+  transition: all .2s;
+  cursor: pointer;
+}
+.form-content form .submit:focus{
+  background-color: box-shadow: 0px 0px 0px #053506;
+  transition: all 0.2s;
+}
